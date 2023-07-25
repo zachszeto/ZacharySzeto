@@ -3,7 +3,11 @@
     padding: 0;
     font-family: 'DM Mono', monospace; 
     box-sizing: border-box;
+    
 }
+#my{
+    zoom: 80%;
+    }
 html{
     scroll-behavior: smooth;
 }
@@ -15,7 +19,7 @@ body{
 #header{
     width: 100%;
     height: 100vh;
-    background-image: url(/images/background.png); 
+    background-color: black; 
     background-size: cover;
     background-position: center;
 }
@@ -63,18 +67,52 @@ nav ul li a:hover::after{
     width: 100%;
 }
 
+
 .header-text{
     margin-top: 20%;
     font-size: 30px;
+    overflow: hidden;
 }
 
-.header-text h1{
+
+.header-text h1 {
+    display: inline-block;
     font-size: 50px;
-    margin-top: 20px;
+    margin-top: 10px;
+    overflow: hidden;
+    /* Ensures the content is not revealed until the animation */
+    border-right: .10em solid #ff004f;
+    /* The typwriter cursor */
+    white-space: nowrap;
+    /* Keeps the content on a single line */
+    margin: 0 auto;
+    /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em;
+    /* Adjust as needed */
+    animation:
+        typing 5s steps(40, end),
+        blink-caret .75s step-end infinite;
 }
 
+
+/* The typing effect */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #ff004f; }
+}
 .header-text h1 span{
     color:#ff004f;
+}
+
+.header-text h2 {
+    font-size: 50px; 
+    margin-top: 20px;
 }
 
 /* about section */
@@ -326,7 +364,7 @@ nav .fa-solid{
 
 @media only screen and (max-width:600px){
     #header{
-        background-image: url(/images/phone-background.png);
+        background-color: black; 
     }
 
     .header-text{
@@ -334,8 +372,12 @@ nav .fa-solid{
         font-size: 16px;
     }
 
-    .header-text h1{
-        font-size: 30px;
+    .header-text h1 {
+        font-size: 18px;
+    }
+
+    .header-text h2 {
+        font-size: 18px;
     }
 
     nav .fa-solid{
@@ -391,6 +433,12 @@ nav .fa-solid{
     .contact-left, .contact-right{
         flex-basis: 100%;
     }
+    .services-list {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-gap: 40px;
+        margin-top: 50px;
+      }
 
 }
 
