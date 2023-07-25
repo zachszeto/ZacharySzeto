@@ -7,6 +7,7 @@
     <title>Personal Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/caab8e5430.js" crossorigin="anonymous"></script>
+    <link href="path_to_your_dm_mono_font_file.css" rel="stylesheet">
 </head>
 <body>
 <!-- Navigation Bar-->
@@ -17,8 +18,7 @@
             <ul id="sidemenu">
                 <li><a href="#header">Home</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#services">Skills</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#services">Portfolio</a></li>
                 <li><a href="#contact">Contact</a></li>
                 <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
             </ul>
@@ -80,25 +80,34 @@
 <!-- Services Section-->
 <div id="services">
     <div class="container">
-        <h1 class="sub-title">My Skills</h1>
+        <h1 class="sub-title">My Portfolio</h1>
         <div class="services-list">
-            <div>
-                <i class="fa-solid fa-code"></i>
-                <h2>Web Development</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-                tempor incididunt ut labore et dolore magna aliqua.</p>
-                <a href="#">Learn More</a>
+            <!-- First Row -->
+            <div class="box1">
+                <i class="fa-solid fa-car"></i>
+                <h2>Transportation Data Analysis</h2>
+                <p>Identified GPS location, travel hubs, and overlapping flights of Southwest
+                   and Detla by analyzing flightmaps. Analyzed America's highway network to 
+                   compute the shortest path from the east coast to west coast.
+                   <br>
+                   <br> 
+                   #Graphs #Dijkstra #BFS #DFS #Floyd–Warshall</p>
+                <a href="https://github.com/zachszeto/CS2223/tree/main/Algorithms/hw4">Learn More</a>
             </div>
 
-            <div>
-                <i class="fa-solid fa-crop-simple"></i>
-                <h2>Machine Learning</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-                tempor incididunt ut labore et dolore magna aliqua.</p>
-                <a href="#">Learn More</a>
+            <div class="box2">
+                <i class="fa-brands fa-discord"></i>
+                <h2>Discord Music Bot</h2>
+                <p>Discord music bot made with JavaScript and leveraging Discord's 
+                   powerful API. Seamlessly responds to users' commands and swiftly 
+                   accesses the internet to fetch specific songs and playlists.
+                   <br>
+                   <br> 
+                   #DiscordAPI #JavaScript #DiscordDeveloperPortal</p>
+                <a href="https://github.com/zachszeto/MusicBot">Learn More</a>
             </div>
 
-            <div>
+            <div class="box3">
                 <i class="fa-brands fa-app-store-ios"></i>
                 <h2>Software Development</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
@@ -106,45 +115,34 @@
                 <a href="#">Learn More</a>
             </div>
 
+            <!-- Second Row -->
+            <div class="box4">
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>Software Development</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+                tempor incididunt ut labore et dolore magna aliqua.</p>
+                <a href="#">Learn More</a>
+            </div>
+
+            <div class="box5">
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>Software Development</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+                tempor incididunt ut labore et dolore magna aliqua.</p>
+                <a href="#">Learn More</a>
+            </div>
+
+            <div class="box6">
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>Software Development</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+                tempor incididunt ut labore et dolore magna aliqua.</p>
+                <a href="#">Learn More</a>
+            </div>
         </div>
     </div>
 </div>
-<!-- Portfolio Section-->
-<div>
-    <div id="portfolio">
-        <div class="container">
-            <h1 class="sub-title">My Work</h1>
-            <div class="work-list">
-                <div class="work">
-                    <img src="images/traffic.PNG">
-                    <div class="layer">
-                        <h3>Transportation Data Analysis and Optimization</h3>
-                        <p>Identified GPS location, travel hubs, and overlapping flights of Southwest and Detla by analyzing flightmaps. Analyzed America's highway network to compute the shortest path from the east coast to west coast.</p>
-                            <a href="https://github.com/zachszeto/CS2223/tree/main/Algorithms/hw4"><i class="fa-solid fa-up-right-from-square"></i></a>
-                    </div>
-                </div>
-                <div class="work">
-                    <img src="images/Discord.PNG">
-                    <div class="layer">
-                        <h3>Discord Music Bot</h3>
-                        <p>Discord music bot made with JavaScript and leveraging Discord's powerful API. Seamlessly responds to users' commands and swiftly accesses the internet to fetch specific songs and playlists.</p>
-                            <a href="https://github.com/zachszeto/MusicBot"><i class="fa-solid fa-up-right-from-square"></i></a>
-                    </div>    
-                </div>
-                <div class="work">
-                    <img src="images/traffic.PNG">
-                    <div class="layer">
-                        <h3>Transportation Data Analysis and Optimization</h3>
-                        <p>Analyzed America's highway network to compute the shortest path from the east coast to west coast. 
-                            Identified GPS location, travel hubs, and overlapping flights of Southwest and Detla</p>
-                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
-                    </div>
-                </div>
-            </div>
-            <a href="https://github.com/zachszeto" class="btn">See More</a>
-        </div> 
-    </div>
-</div>
+
 <!-- Contact Section-->
 <div id="contact">
     <div class="container">
