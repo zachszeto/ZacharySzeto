@@ -154,7 +154,7 @@ nav ul li a:hover::after{
 .tab-links{
     margin-top: 30px;
     margin-right: 50px;
-    font-size: 20px;
+    font-size: px;
     font-weight: 500;
     cursor: pointer;
     position: relative;
@@ -184,6 +184,7 @@ nav ul li a:hover::after{
     color:#b45769;
     font-size: 20px;
 }
+
 
 .tab-contents{
     display: none;
@@ -407,6 +408,14 @@ nav .fa-solid{
         cursor: pointer;
     }
 
+    .tab-contents ul li span{
+        font-size: 14px;
+    }
+   
+    .tab-contents ul li{
+        font-size: 14px;
+    }
+
     .sub-title{
         font-size: 40px;
     }
@@ -431,12 +440,26 @@ nav .fa-solid{
     .contact-left, .contact-right{
         flex-basis: 100%;
     }
+
+    /*-------Portfolio Section-------*/
     .services-list {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
         grid-gap: 40px;
         margin-top: 50px;
       }
+
+      .services-list div {
+        font-size: 12px;
+    }
+
+    .services-list div h2{
+        font-size: 20px;
+    }
+
+    .services-list div i{
+        font-size: 40px;
+    }
 
 }
 
