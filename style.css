@@ -299,9 +299,10 @@ nav ul li a:hover::after{
 .services-list div a{
     text-decoration: none;
     color: #fff;
-    font-size: 13px;
+    font-size: 18px;
     margin-top: 20px;
     display: inline-block;
+    text-decoration: underline;
 }
 
 .services-list div:hover{

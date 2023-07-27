@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,250 +10,270 @@
     <script src="https://kit.fontawesome.com/caab8e5430.js" crossorigin="anonymous"></script>
     <link href="path_to_your_dm_mono_font_file.css" rel="stylesheet">
 </head>
+
 <body>
-<!-- Navigation Bar-->
+    <!-- Navigation Bar-->
     <div id="header">
-    <div class="container">
-        <nav>
-            <img src="images/logo.PNG" class="logo">
-            <ul id="sidemenu">
-                <li><a href="#header">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Portfolio</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
-            </ul>
-            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
-        </nav>
+        <div class="container">
+            <nav>
+                <img src="images/logo.PNG" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
 
-        <div class="header-text">
-            <p>Undergraduate Student</p>
-            <h1>Hello, I'm <span>Zachary Szeto.</span> Welcome to my Website!</h1>
-            <h2>
-                <br>From Legos to Robotics...<br>From Scratch to Unity...<br>From “Hello, World!” to...
-            </h2> 
+            <div class="header-text">
+                <p>Undergraduate Student</p>
+                <h1>Hello, I'm <span>Zachary Szeto.</span> Welcome to my Website!</h1>
+                <h2>
+                    <br>From Legos to Robotics...<br>From Scratch to Unity...<br>From “Hello, World!” to...
+                </h2>
+            </div>
         </div>
     </div>
-</div>
 
-<!-- About Section-->
-<div id="about">
-    <div class="container">
-        <div class="row">
-            <div class="about-col-1">
-                <img src="images/SeniorPhoto.JPG">
-            </div>
-            <!-- Personal Summary Section-->
-            <div class="about-col-2">
-                <h1 class="sub-title">About Me</h1>
-
-                <div class="module-border-wrap">
-                    <div class="module">
-                        <p>
-                            My name is Zachary Szeto and I am an undergraduate student at Worcester Polytechnic
-                            Institute majoring in computer science. I grew up in a small town outside of Boston and was
-                            first introduced to computer science through the First Lego League. Since then I have
-                            learned many new languages/concepts and acquired many new skills.
-                            Outside of academics and work I enjoy visiting new restaurants and trying new foods, playing
-                            spikeball on the beach, and really anything with friends.
-                        </p>
-                    </div>
+    <!-- About Section-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/SeniorPhoto.JPG">
                 </div>
+                <!-- Personal Summary Section-->
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
 
-                <div class="module-border-wrap2">
-                    <div class="module2">
-                        <div class="tab-titles">
-                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
-                            <p class="tab-links" onclick="opentab('experience)">Experience</p>
-                            <p class="tab-links" onclick="opentab('education')">Education</p>
-                        </div>
-                        <!-- Skills Section-->
-                        <div class="tab-contents active-tab" id="skills">
-                            <ul>
-                                <li><span>Machine Learning</span><br>Neural Networks, Computer Vision, Natural Language
-                                    Processing</li>
-                                <li><span>Web Development</span><br>HTML/CSS, JavaScript, Figma, WebFlow</li>
-                                <li><span>Software Development</span><br>Java, Python, C++, C#</li>
-                            </ul>
-                        </div>
-                        <!-- Experience Section-->
-                        <div class="tab-contents" id="experience">
-                            <ul>
-                                <li><span>May 2023 - Present</span><br>Volunteer Website Developer for non-profit
-                                    organization focused on bringing STEM related education to developing countries</li>
-                        </div>
-                        <!-- Education Section-->
-                        <div class="tab-contents" id="education">
-                            <ul>
-                                <li><span>August 2022 - Present</span><br>Bachelor's in Computer Science from Worcester
-                                    Polytechnic Institute</li>
-                                <li><span>August 2018 - June 2022</span><br>Graduated from Dover-Sherborn High School
-                                </li>
-                            </ul>
+                    <div class="module-border-wrap">
+                        <div class="module">
+                            <p>
+                                My name is Zachary Szeto and I am an undergraduate student at Worcester Polytechnic
+                                Institute majoring in computer science. I grew up in a small town outside of Boston and
+                                was
+                                first introduced to computer science through the First Lego League. Since then I have
+                                learned many new languages/concepts and acquired many new skills.
+                                Outside of academics and work I enjoy visiting new restaurants and trying new foods,
+                                playing
+                                spikeball on the beach, and really anything with friends.
+                            </p>
                         </div>
                     </div>
+
+                    <div class="module-border-wrap2">
+                        <div class="module2">
+                            <div class="tab-titles">
+                                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                                <p class="tab-links" onclick="opentab('experience)">Experience</p>
+                                <p class="tab-links" onclick="opentab('education')">Education</p>
+                            </div>
+                            <!-- Skills Section-->
+                            <div class="tab-contents active-tab" id="skills">
+                                <ul>
+                                    <li><span>Machine Learning</span><br>Neural Networks, Computer Vision, Natural
+                                        Language
+                                        Processing</li>
+                                    <li><span>Web Development</span><br>HTML/CSS, JavaScript, Figma, WebFlow</li>
+                                    <li><span>Software Development</span><br>Java, Python, C++, C#</li>
+                                </ul>
+                            </div>
+                            <!-- Experience Section-->
+                            <div class="tab-contents" id="experience">
+                                <ul>
+                                    <li><span>May 2023 - Present</span><br>Volunteer Website Developer for non-profit
+                                        organization focused on bringing STEM related education to developing countries
+                                    </li>
+                            </div>
+                            <!-- Education Section-->
+                            <div class="tab-contents" id="education">
+                                <ul>
+                                    <li><span>August 2022 - Present</span><br>Bachelor's in Computer Science from
+                                        Worcester
+                                        Polytechnic Institute</li>
+                                    <li><span>August 2018 - June 2022</span><br>Graduated from Dover-Sherborn High
+                                        School
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services Section-->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Portfolio</h1>
+            <div class="services-list">
+                <!-- First Row -->
+                <div class="box1">
+                    <i class="fa-solid fa-car"></i>
+                    <h2>Transportation Data Analysis</h2>
+                    <p>Identified GPS location, travel hubs, and overlapping flights of Southwest
+                        and Detla by analyzing flightmaps. Analyzed America's highway network to
+                        compute the shortest path from the East coast to West coast.
+                        <br>
+                        <br>
+                        #Graphs #Dijkstra #BFS #DFS #Floyd–Warshall
+                    </p>
+                    <a href="https://github.com/zachszeto/CS2223/tree/main/Algorithms/hw4">Learn More</a>
                 </div>
 
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Services Section-->
-<div id="services">
-    <div class="container">
-        <h1 class="sub-title">My Portfolio</h1>
-        <div class="services-list">
-            <!-- First Row -->
-            <div class="box1">
-                <i class="fa-solid fa-car"></i>
-                <h2>Transportation Data Analysis</h2>
-                <p>Identified GPS location, travel hubs, and overlapping flights of Southwest
-                   and Detla by analyzing flightmaps. Analyzed America's highway network to 
-                   compute the shortest path from the East coast to West coast.
-                   <br>
-                   <br> 
-                   #Graphs #Dijkstra #BFS #DFS #Floyd–Warshall</p>
-                <a href="https://github.com/zachszeto/CS2223/tree/main/Algorithms/hw4">Learn More</a>
-            </div>
-
-            <div class="box2">
-                <i class="fa-brands fa-discord"></i>
-                <h2>Discord Music Bot</h2>
-                <p>Discord music bot made with JavaScript and leveraging Discord's 
-                   powerful API. Seamlessly responds to users' commands and swiftly 
-                   accesses the internet to fetch specific songs and playlists.
-                   <br>
-                   <br> 
-                   #DiscordAPI #JavaScript #DiscordDeveloperPortal</p>
-                <a href="https://github.com/zachszeto/MusicBot">Learn More</a>
-            </div>
-
-            <div class="box3">
-                <i class="fa-solid fa-graduation-cap"></i>
-                <h2>DSA Visualizer</h2>
-                <p> Innovative Visualization Tool powered by React, designed to aid students in mastering Data Structures and Sorting Algorithms.
-                    <br>
-                    <br> 
-                    #React #JavaScript #SortingAlgorithms #ProjectManager</p>
-                <a href="#">Learn More</a>
-            </div>
-
-            <!-- Second Row -->
-            <div class="box4">
-                <i class="fa-brands fa-app-store-ios"></i>
-                <h2>Coming Soon...</h2>
-                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-                    tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-                    tempor incididunt ut labore et dolore magna aliqua.
-                    <br>
-                    <br> 
-                    #Lorem #ipsum #dolor #sit #amet</p>
-                <a href="#">Learn More</a>
-            </div>
-
-            <div class="box5">
-                <i class="fa-brands fa-app-store-ios"></i>
-                <h2>Coming Soon...</h2>
-                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-                    tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-                    tempor incididunt ut labore et dolore magna aliqua.
-                    <br>
-                    <br> 
+                <div class="box2">
+                    <i class="fa-brands fa-discord"></i>
+                    <h2>Discord Music Bot</h2>
+                    <p>Discord music bot made with JavaScript and leveraging Discord's
+                        powerful API. Seamlessly responds to users' commands and swiftly
+                        accesses the internet to fetch specific songs and playlists.
+                        <br>
+                        <br>
+                        #DiscordAPI #JavaScript #DiscordDeveloperPortal #NodeJS
                     </p>
-                <a href="#">Learn More</a>
-            </div>
-
-            <div class="box6">
-                <i class="fa-brands fa-app-store-ios"></i>
-                <h2>Coming Soon...</h2>
-                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-                    tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-                    tempor incididunt ut labore et dolore magna aliqua.
-                    <br>
-                    <br> 
-                    </p>
-                <a href="#">Learn More</a>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Contact Section-->
-<div id="contact">
-    <div class="container">
-        <div class="row">
-            <div class="contact-left">
-                <h1 class="sub-title">Contact Me</h1>
-                <p><i class="fa-solid fa-paper-plane"></i>zacharyszto@gmail.com</p>
-                <p><i class="fa-solid fa-square-phone"></i>(774)-290-8219</p>
-                <div class="social-icons">
-                    <a href="https://www.linkedin.com/in/zacharyszeto"><i class="fa-brands fa-linkedin"></i></a>
-                    <a href="https://github.com/zachszeto"><i class="fa-brands fa-square-github"></i></a>
-                    <a href="https://www.instagram.com/zach.szeto/"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://github.com/zachszeto/MusicBot">Learn More</a>
                 </div>
-                <a href="images/Resume 2023.pdf" download class="btn btn2">Download CV</a>
-            </div>
-            <div class="contact-right">
-                <form name="submit-to-google-sheet">
-                    <input type="text" name="Name" placeholder="Your Name" required>
-                    <input type="email" name="Email" placeholder="Your Emai" required>
-                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
-                    <button type="submit" class="btn btn2">Submit</button> 
-                </form>
-                <span id="msg"></span>
+
+                <div class="box3">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                    <h2>DSA Visualizer (Coming Soon!)</h2>
+                    <p> Innovative Visualization Tool powered by React, designed to aid students in mastering Data
+                        Structures and Sorting Algorithms. Offers interactive visualizations, step-by-step explanations, and real-time 
+                        code demonstrations to provide an engaging and comprehensive learning experience for students. 
+                        <br>
+                        <br>
+                        #React #JavaScript #SortingAlgorithms #ProjectManager
+                    </p>
+                    <a href="https://github.com/nguyenv119/DSAV">Learn More</a>
+                </div>
+
+                <!-- Second Row -->
+                <div class="box4">
+                    <i class="fa-solid fa-chess-knight"></i>
+                    <h2>Chess Engine (Coming Soon!)</h2>
+                     <p> This project aims to construct a C-based chess engine employing bitboards, bit manipulation, and efficient 
+                        move generation techniques. It will incorporate Alpha-Beta Pruning and Iterative Deepening for optimized search 
+                        processes, a Principal Variation Table for storing best moves, and Lazy SMP for efficient multi-core processing 
+                        to enhance evaluation and search speed.
+                        <br>
+                        <br>
+                        #C #IterativeDeepening #LazySMP #BitBoards #ABPruning
+                    </p>
+                    <a href="https://github.com/zachszeto/chessEngine">Learn More</a>
+                </div>
+
+                <div class="box5">
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>Coming Soon...</h2>
+                     <!-- <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua.
+                        <br>
+                        <br>
+                        #Lorem #ipsum #dolor #sit #amet
+                    </p>
+                    <a href="#">Learn More</a> -->
+                </div>
+
+                <div class="box6">
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>Coming Soon...</h2>
+                    <!-- <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua.
+                        <br>
+                        <br>
+                        #Lorem #ipsum #dolor #sit #amet
+                    </p>
+                    <a href="#">Learn More</a> -->
+                </div>
             </div>
         </div>
     </div>
-</div>
 
-<script>
-    var tablinks = document.getElementsByClassName("tab-links");
-    var tabcontents = document.getElementsByClassName("tab-contents");
-    
-    function opentab(tabname){
-        for(tablink of tablinks){
-            tablink.classList.remove("active-link");
+    <!-- Contact Section-->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>zacharyszto@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>(774)-290-8219</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/zacharyszeto"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/zachszeto"><i class="fa-brands fa-square-github"></i></a>
+                        <a href="https://www.instagram.com/zach.szeto/"><i
+                                class="fa-brands fa-square-instagram"></i></a>
+                    </div>
+                    <a href="images/Resume 2023.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Emai" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
         }
 
-        for(tabcontent of tabcontents){
-            tabcontent.classList.remove("active-tab");
+        function closemenu() {
+            sidemenu.style.right = "-200px";
         }
-        event.currentTarget.classList.add("active-link");
-        document.getElementById(tabname).classList.add("active-tab");
-    }
-</script>
+    </script>
 
-<script>
-    var sidemenu = document.getElementById("sidemenu");
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyyd3vavFIBHqkoey3zaTdK2WmG6t_fz6lQ9lcu8mMYGFArObOzHz-CX6m8jkGeAAmDkg/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
 
-    function openmenu(){
-        sidemenu.style.right = "0";
-    }
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message Sent Successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
 
-    function closemenu(){
-        sidemenu.style.right = "-200px";
-    }
-</script>
-
-<script>
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbyyd3vavFIBHqkoey3zaTdK2WmG6t_fz6lQ9lcu8mMYGFArObOzHz-CX6m8jkGeAAmDkg/exec'
-    const form = document.forms['submit-to-google-sheet']
-    const msg = document.getElementById("msg")
-  
-    form.addEventListener('submit', e => {
-      e.preventDefault()
-      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-        .then(response => {
-            msg.innerHTML = "Message Sent Successfully"
-            setTimeout(function(){
-                msg.innerHTML = ""
-            },5000)
-
-            form.reset()
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
         })
-        .catch(error => console.error('Error!', error.message))
-    })
-  </script>
+    </script>
 </body>
+
 </html>
