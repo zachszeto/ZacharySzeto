@@ -68,14 +68,14 @@ nav ul li a:hover::after{
 
 .header-text{
     margin-top: 20%;
-    font-size: 30px;
+    font-size: 35px;
     overflow: hidden;
 }
 
 
 .header-text h1 {
     display: inline-block;
-    font-size: 40px;
+    font-size: 35px;
     margin-top: 10px;
     overflow: hidden;
     /* Ensures the content is not revealed until the animation */
@@ -109,7 +109,7 @@ nav ul li a:hover::after{
 }
 
 .header-text h2 {
-    font-size: 40px; 
+    font-size: 35px; 
     margin-top: 20px;
 }
 
