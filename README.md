@@ -8,8 +8,10 @@ I first got introduced to computer science through the First Lego League back wh
 
 I learn best by actively working on things, so here I am featuring various hands-on coding projects I've built using my latest skills. I'm excited to continue growing as a developer and creator. Feel free to look around here or on my :star:[Personal Portfolio](https://zachszeto.github.io/PersonalPortfolio/):star:!
 
+ <br>
+ 
 ---
-#
+
 
 ### :toolbox: Languages and Tools :toolbox:
 <img align="left" width="40px" style="padding:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg" />
