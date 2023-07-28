@@ -6,4 +6,13 @@
 
 I first got introduced to computer science through the First Lego League back when I was growing up near Boston. Since then, I've expanded my skills by learning new languages and concepts while working on projects like a Discord Music Bot, DSA Visualizer, and more. My goal is to continue acquiring new technical abilities and making things that showcase what I can do.
 
-I learn best by actively working on things, so my website features various hands-on coding projects I've built using my latest skills. I'm excited to continue growing as a developer and creator. Feel free to look around!
+I learn best by actively working on things, so here I am featuring various hands-on coding projects I've built using my latest skills. I'm excited to continue growing as a developer and creator. Feel free to look around here or on my "[Personal Portfolio][https://zachszeto.github.io/PersonalPortfolio/]"!
+
+---
+
+###Languages and Tools :toolbox:
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+
+
+
