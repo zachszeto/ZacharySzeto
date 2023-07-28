@@ -1,4 +1,4 @@
-# ZacharySzeto :seedling:
+# :seedling: ZacharySzeto :seedling:
 
 **'Undergraduate Student at WPI and Aspiring Software Engineer'**
 
@@ -10,7 +10,7 @@ I learn best by actively working on things, so here I am featuring various hands
 
 ---
 
-### Languages and Tools :toolbox:
+### :toolbox: Languages and Tools :toolbox:
 <img align="left" width="40px" style="padding:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg" />
 <img align="left" width="40px" style="padding:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
 <img align="left" width="40px" style="padding:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
