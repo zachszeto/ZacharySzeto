@@ -1,6 +1,6 @@
 # :seedling: ZacharySzeto :seedling:
 
-**'Undergraduate Student at WPI and Aspiring Software Engineer'**
+**`Undergraduate Student at WPI and Aspiring Software Engineer`**
 
 :wave:Hi and welcome to my GitHub:wave:!, an undergraduate computer science student at Worcester Polytechnic Institute. I have a strong passion for building innovative projects that solve real-world problems. On this page, you can follow along my journey to become a software engineer as I learn through hands-on experiences and building projects.
 
