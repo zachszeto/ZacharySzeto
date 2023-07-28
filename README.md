@@ -44,6 +44,8 @@ I learn best by actively working on things, so here I am featuring various hands
 
 ![Zachary Szeto's GitHub Stats](https://github-readme-stats.vercel.app/api?username=zachszeto&show_icons=true&theme=gruvbox)
 
+### :thought_balloon: My Journey :thought_balloon:
+
 
 
 
