@@ -10,8 +10,8 @@ I learn best by actively working on things, so here I am featuring various hands
 
 ---
 
-:toolbox:
-### Languages and Tools
+
+### Languages and Tools :toolbox:
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
 
