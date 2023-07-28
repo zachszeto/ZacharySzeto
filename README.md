@@ -34,7 +34,15 @@ I learn best by actively working on things, so here I am featuring various hands
   <img align="left" width="40px" style="padding:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webflow/webflow-original.svg" />
 </p>
 
+<br>
+<br>
+<br>
+
 ---
+
+<br>
+<br>
+<br>
 
 ### :bar_chart: Stats :bar_chart:
 
