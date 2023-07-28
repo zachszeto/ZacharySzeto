@@ -40,10 +40,6 @@ I learn best by actively working on things, so here I am featuring various hands
 
 ---
 
-<br>
-<br>
-<br>
-
 ### :bar_chart: Stats :bar_chart:
 
 ![Zachary Szeto's GitHub Stats](https://github-readme-stats.vercel.app/api?username=zachszeto&show_icons=true&theme=radical)
