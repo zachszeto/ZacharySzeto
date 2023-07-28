@@ -32,6 +32,12 @@ I learn best by actively working on things, so here I am featuring various hands
 <img align="left" width="40px" style="padding:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" />
 <img align="left" width="40px" style="padding:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webflow/webflow-original.svg" />
 
+---
+
+###:bar_chart:Stats:bar_chart:
+
+![Zachary Szeto's GitHub Stats](https://github-readme-stats.vercel.app/api?username=zachszeto&show_icons=true&theme=radical)
+
 
 
 
