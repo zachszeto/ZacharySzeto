@@ -45,7 +45,7 @@ I learn best by actively working on things, so here I am featuring various hands
 
 ![Zachary Szeto's GitHub Stats](https://github-readme-stats.vercel.app/api?username=zachszeto&show_icons=true&theme=gruvbox)
 
-### :thought_balloon: My Journey :thought_balloon:
+### My Journey
 Building:hammer: things has been a lifelong passion, beginning with Legos and evolving to robotics:gear: in middle school. In high school, I took my first programming classes, with Game Development:video_game: being a standout favorite. My friend and I used Unity to create a top-down shooter - brainstorming, designing, debugging, and finally producing a playable game. That experience sparked a true love of computer science in me. I was hooked on the creative process of conceiving an idea and bringing it to life through code.
 
 That early passion set me on the path I'm on today. I'm still driven by a desire to constantly learn:student: more and build amazing new projects:file_folder:! The journey from initial concept to finished product continues to motivate me. My goal:dart: is still the same as it was then: to keep creating things that solve problems and make an impact. 
