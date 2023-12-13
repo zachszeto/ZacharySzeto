@@ -1,4 +1,4 @@
-# :seedling: ZacharySzeto :seedling:
+# ZacharySzeto
 
 **`Undergraduate Student at WPI and Aspiring Software Engineer`**
 
@@ -10,7 +10,7 @@ I learn best by actively working on things, so here I am featuring various hands
 
 ---
 
-### :toolbox: Languages and Tools :toolbox:
+### Languages and Tools
 <p>
   <img align="left" width="40px" style="padding:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg" />
   <img align="left" width="40px" style="padding:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
@@ -40,7 +40,7 @@ I learn best by actively working on things, so here I am featuring various hands
 
 ---
 
-### :bar_chart: Stats :bar_chart:
+### Stats
 <i>~ Growing ~</i>
 
 ![Zachary Szeto's GitHub Stats](https://github-readme-stats.vercel.app/api?username=zachszeto&show_icons=true&theme=gruvbox)
